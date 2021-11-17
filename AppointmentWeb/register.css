@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+nav{
+	width: 100%;
+	height: 55px;
+	background-color: #505d61;
+	line-height: 75px;
+	padding:0px 100px;
+	position:fixed;
+	z-index: 1;
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px; 
+}
+nav .logo p{
+	float: left;
+	color:#fff;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding:0px 32px;
+}
+nav ul li a:hover{
+	color:#c0d96f;
+}
+nav ul li .active{
+	color:#c0d96f;
+}
+
+
+
+
+
+
+/*
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: white;
+    width: 730px;
+    margin: 0 auto;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+*/
+
+h1 { 
+    font-size: 150%;
+    color: blue;
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 120%;
+    margin-bottom: .25em;
+}
+label {
+    float: left;
+    width: 10em;
+}
+input, select {
+    width: 20em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+input[type="checkbox"],[type="radio"] {
+    width: 1em;
+}
+#registration_form span {
+    color: red;
+}
+#error1, #error2, #error3 {
+	color:red;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navigation Bar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initaial-scale=1.0">
+    <!-- - <link rel="stylesheet" type="text/css" href="style.css">-->
+    <link rel="stylesheet" type="text/css" href="register.css">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <p>navbar</p>
+      </div>
+      <ul>
+        <li><a class="active" href="">home</a></li>
+        <li><a href="">Appointment</a></li>
+        <li><a href="">contact</a></li>
+      </ul>
+    </nav>
+    <div class="image">
+      <!-- - 	<img src="image/img one.jpg"> --->
+    </div><br><br>
+    <main>
+      <h1>Register for an Appointment</h1>
+      <form id="registration_form" action="register_account.html" method="get" name="registration_form">
+        <label for="name">Enter your name:</label>
+        <input id="name" type="text" name="name"><br>
+        <label for="day">Appointment date:</label>
+        <input id="appday" type="date" name="appday"><br>
+        <label for="time">Select a time:</label>
+        <input id="apptime" type="time" name="apptime"><br>
+        <input id="submit" type="submit" value="Register">
+        <input id="reset_form" type="button" value="Reset">
+        <!--
+        <input type="submit" id="submit" value="Register">
+        <input type="button" id="reset_form" value="Reset">
+        -->
+      </form>
+    </main><br>
+    <div id="error1"> </div><span id="output1"></span>
+    <p id="output2" style="color:green"> </p>
+    <p id="output3" style="color:green"> </p>
+    <footer>
+      <p> © Copyright 2021 by Group of Full-Stack Developers. </p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--
+    -
+    <script type="text/javascript" src="register.js"></script>
+    -->
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
