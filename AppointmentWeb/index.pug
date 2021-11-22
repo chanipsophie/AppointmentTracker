@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title Navigation Bar
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initaial-scale=1.0')
+    // 
+    link(rel='stylesheet' type='text/css' href='register.css')
+  body
+    nav
+      .logo
+        p Full-Stack Team 
+      ul
+        li
+          a.active(href='') home
+        li
+          a(href='') Appointment
+        li
+          a(href='') contact
+    .image
+      // - 	<img src="image/img one.jpg"> -
+    br
+    br
+    main
+      h1 Register for an Appointment
+      form#registration_form(action='register_account.html' method='get' name='registration_form')
+        label(for='name') Enter your name:
+        input#name(type='text' name='name')
+        br
+        label(for='day') Appointment date:
+        input#appday(type='date' name='appday')
+        br
+        label(for='time') Select a time:
+        input#apptime(type='time' name='apptime')
+        br
+        input#submit(type='submit' value='Register')
+        input#reset_form(type='button' value='Reset')
+        //
+          <input type="submit" id="submit" value="Register">
+          <input type="button" id="reset_form" value="Reset">
+    br
+    #error1  
+    span#output1
+    p#output2(style='color:green')  
+    p#output3(style='color:green')  
+    footer
+      p  © Copyright 2021 by Group of Full-Stack Developers. 
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js')
+    //
+      -
+      <script type="text/javascript" src="register.js"></script>
+    script(type='text/javascript' src='main.js')
